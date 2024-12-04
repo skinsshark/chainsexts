@@ -1,0 +1,32 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 44% 44%;
+  justify-content: space-between;
+  gap: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    grid-template-columns: 100%;
+  }
+}
+
+.textMessageWrapper {
+  margin-bottom: 69px;
+}
+
+.textHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.9px;
+}
+
+.copyButton {
+  flex-shrink: 0;
+}
+
+.message {
+  white-space: pre-line;
+}
